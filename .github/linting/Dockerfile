@@ -1,5 +1,5 @@
 FROM mvdan/shfmt:v3.5.1 as shfmt
-FROM koalaman/shellcheck:v0.8.0 as shellcheck
+FROM koalaman/shellcheck:v0.9.0 as shellcheck
 
 FROM python:3.11.0-alpine3.16
 
